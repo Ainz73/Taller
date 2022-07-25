@@ -1,0 +1,6 @@
+C:\BD\Taller\bin\Debug\Taller.dacpac
+C:\BD\Taller\bin\Debug\Taller.dll
+C:\BD\Taller\bin\Debug\Taller.pdb
+C:\BD\Taller\obj\Debug\Taller.sqlprojAssemblyReference.cache
+C:\BD\Taller\obj\Debug\Taller.dll
+C:\BD\Taller\obj\Debug\Taller.pdb

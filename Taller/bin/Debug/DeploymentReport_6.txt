@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Color] (Table)
+       [dbo].[DF_Color_NombreColor] (Default Constraint)
+       [dbo].[DF_Color_IdTaller] (Default Constraint)
+       [dbo].[DF_Talleres_Estado] (Default Constraint)
+       [dbo].[DF_Talleres_NombreTaller] (Default Constraint)
+       [dbo].[FK_Color_IdTaller] (Foreign Key)
+       [dbo].[CK_Color_CodigoColor] (Check Constraint)
+       [dbo].[CK_Talleres_Estado] (Check Constraint)
+
+** Supporting actions

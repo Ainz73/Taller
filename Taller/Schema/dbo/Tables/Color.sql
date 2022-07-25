@@ -1,0 +1,17 @@
+﻿CREATE TABLE Color
+(
+	CodigoColor CHAR(2) NOT NULL,
+	NombreColor VARCHAR(32) NOT NULL,
+	IdTaller INT NOT NULL
+);
+GO
+ALTER TABLE Color ADD CONSTRAINT PK_Color_CodigoColor PRIMARY KEY(CodigoColor);
+GO
+ALTER TABLE Color ADD CONSTRAINT DF_Color_NombreColor DEFAULT('') FOR NombreColor;
+GO
+ALTER TABLE Color ADD CONSTRAINT DF_Color_IdTaller DEFAULT(0) FOR IdTaller;
+GO
+ALTER TABLE Color ADD CONSTRAINT FK_Color_IdTaller FOREIGN KEY(IdTaller) REFERENCES Talleres(IdTaller);
+GO
+ALTER TABLE Color ADD CONSTRAINT CK_Color_CodigoColor CHECK(LEN(CodigoColor)=2);
+GO
